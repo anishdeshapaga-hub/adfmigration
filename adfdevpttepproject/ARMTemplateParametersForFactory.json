@@ -1,0 +1,159 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevpttepproject"
+		},
+		"ADLS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_ONPrem_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_ONPrem_Sql_Server_DW_password": {
+			"value": ""
+		},
+		"LS_Parent_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_Parnt_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_Parquet_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_Parquet_Sql_Server_DW_password": {
+			"value": ""
+		},
+		"LS_SQLDATA_SINK_password": {
+			"value": ""
+		},
+		"LS_SQLDATA_SNK_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TBLLKUP_password": {
+			"value": ""
+		},
+		"LS_SQL_TBLELKUP_password": {
+			"value": ""
+		},
+		"LS_SQL_TBLLKUP_password": {
+			"value": ""
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevpttepproject.dfs.core.windows.net/"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_ONPrem_SqlServer_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_ONPrem_SqlServer_DW_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_ONPrem_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_ONPrem_Sql_Server_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_ONPrem_Sql_Server_DW_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_ONPrem_Sql_Server_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_Parent_SqlServer_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_Parent_SqlServer_DW_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_Parent_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_Parnt_SqlServer_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_Parnt_SqlServer_DW_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_Parnt_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_Parquet_SqlServer_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_Parquet_SqlServer_DW_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_Parquet_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_Parquet_Sql_Server_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_Parquet_Sql_Server_DW_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_Parquet_Sql_Server_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLDATA_SINK_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_SQLDATA_SINK_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQLDATA_SINK_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLDATA_SNK_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_SQLDATA_SNK_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQLDATA_SNK_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_TBLELKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_SQL_TBLELKUP_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_TBLELKUP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_TBLLKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-JRVCG5T\\SQLEXPRESS"
+		},
+		"LS_SQL_TBLLKUP_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_TBLLKUP_properties_typeProperties_userName": {
+			"value": "sa"
+		}
+	}
+}
