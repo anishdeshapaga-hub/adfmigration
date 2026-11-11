@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_TBLLKUP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-JRVCG5T\\SQLEXPRESS",
+			"database": "sqlmigration",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5MWJlNDk4ZS05ZGNkLTQ5ZDYtYTMwMS1hMzFjYzI0NTI5YjkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "PTTEPIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
